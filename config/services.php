@@ -35,4 +35,6 @@ return [
         ],
     ],
 
+    'sports_api' => env('SPORTS_API', 'ApiFootball'),
+
 ];

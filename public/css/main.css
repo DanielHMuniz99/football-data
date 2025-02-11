@@ -1,0 +1,160 @@
+#body {
+    background: #060C1F;
+}
+
+.team-card {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-card .card-title {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tabs {
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    background-color: #202A39;
+    z-index: 1000;
+}
+
+.tabs .tab-outer {
+    border-bottom: 4px solid #202A39;
+    top: 70px;
+    padding: 20px 0 0 0;
+}
+
+.tabs .tab-list a {
+    color: #4a4947;
+}
+
+.tabs .tab-list ul {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+
+.search input{
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.search input:focus{
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue;
+}
+
+.nav{
+    background-color: #336683;
+    padding: 25px;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #336683 !important;
+    background-color: #a4d6ef !important;
+    border-color: transparent transparent #f3f3f3;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    color: #eee;
+    font-size: 20px;
+    background-color: #336683;
+    border: 1px solid #a4d6ef;
+    color: #a4d6ef;
+}
+
+.nav-item {
+    border-radius: 0 !important;
+}
+
+.nav-item:last-child {
+    border-top-right-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
+}
+
+.nav-item:first-child {
+    border-top-left-radius: .5rem !important;
+    border-bottom-left-radius: .5rem !important;
+}
+
+.nav-tabs .nav-link.active{
+   background-color: #a4d6ef !important; 
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.a-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(23, 22, 22);
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 0.0 - 1.0;
+}
