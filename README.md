@@ -6,9 +6,7 @@ PHP 8.4
 
 Laravel 11.0
 
-## Installation
-
-Run composer install command
+## Instalação
 
   ```php
   composer install
@@ -23,5 +21,9 @@ configure a ``` API_FOOTBALL_DATA ``` no arquivo .env com a chave gerada pela [A
   ```php
   php artisan migrate
   ```
+
+## informações da API
+
+Alguns endpoints estão “bloqueados” devido ao plano gratuito da chave em questão. Existem algumas inconsistências, como o endpoint de listagem de times da liga brasileira (Campeonato Brasileiro) que não retorna dados (teams)
 
 ![image](https://github.com/user-attachments/assets/f707f5ee-6291-4a88-80c8-088100250efd)
