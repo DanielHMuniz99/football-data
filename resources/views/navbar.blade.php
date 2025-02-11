@@ -9,7 +9,7 @@
         <form class="d-flex w-100 d-lg-block" onsubmit="search('{{ $league['code'] ?? '' }}'); return false;">
             <div class="input-group">
                 <span class="input-group-text"><i class="fa fa-search"></i></span>
-                <input type="text" id="search-input" class="form-control" placeholder="Buscar liga">
+                <input type="text" id="search-input" class="form-control" placeholder="{{ empty($league['code']) ? 'Buscar liga' : 'Buscar time' }}">
                 <button type="submit" class="btn btn-primary">Buscar</button>
             </div>
         </form>

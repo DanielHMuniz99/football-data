@@ -14,6 +14,15 @@ Laravel 11.0
 
 Copy   ``` .env.example ``` to ```.env```
 
+```
+DB_CONNECTION=
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+
 configure a ``` API_FOOTBALL_DATA ``` no arquivo .env com a chave gerada pela [API Football-data](https://www.football-data.org/documentation/quickstart)
 
 ``` API_FOOTBALL_DATA="7285b375d4ac463e9167e24d85aed228" ```
