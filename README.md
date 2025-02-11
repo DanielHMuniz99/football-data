@@ -24,4 +24,4 @@ configure a ``` API_FOOTBALL_DATA ``` no arquivo .env com a chave gerada pela [A
   php artisan migrate
   ```
 
-  ![alt text](image.png)
+![image](https://github.com/user-attachments/assets/f707f5ee-6291-4a88-80c8-088100250efd)
